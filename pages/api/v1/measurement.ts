@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 
-import { MeasurementData } from '../../../interface/index';
+import { MeasurementData } from '../../../types/index';
 
 export default function handler(
   req: NextApiRequest,

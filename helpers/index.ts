@@ -1,4 +1,4 @@
-import { MeasurementData, Paddockdata, GeoJson } from "../interface";
+import { MeasurementData, Paddockdata, GeoJson } from "../types";
 
 export async function getData(endpoint: string) {
   const resp = await fetch(

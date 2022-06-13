@@ -17,7 +17,7 @@ import {
   transformPaddockData,
   getData,
 } from "../../helpers";
-import { HoverInfo } from "../../interface";
+import { HoverInfo } from "../../types";
 import { MAPBOX_TOKEN } from "../../helpers/constants";
 
 const DisplayMap = () => {
