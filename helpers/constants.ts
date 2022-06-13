@@ -1,0 +1,25 @@
+export const MAPBOX_TOKEN = process.env.MAPBOX_TOKEN ? process.env.MAPBOX_TOKEN : "pk.eyJ1IjoiYW51ajAwNzAiLCJhIjoiY2thMHcyZDN4MHI0bzNlbHRoZm5jMnprYyJ9.516zWIdaUE1ObTKYTFO1aQ";
+
+export const HEATMAP_FIELDS = ["nmin_in_mg_per_100g",
+    "soc_in_percent",
+    "som_in_percent",
+    "ph",
+    "moisture_in_percent",
+    "p_in_mg_per_100g",
+    "k_in_mg_per_100g",
+    "mg_in_mg_per_100g",
+    "light_visible_in_lux",
+    "light_infrared_in_lux",
+    "env_temp_in_c",
+    "env_humidity_in_percent",
+    "env_pressure_in_pascal",
+    "env_pressure_in_h_pascal",
+    "env_voc_in_ohm",
+    "soil_temp_in_c",
+    "n_total_in_percent",
+    "no3_mg_per_100g",
+    "so4_mg_per_100g",
+    "c_n_ratio",
+    "p2o5_in_mg_per_100g",
+    "k2o_in_mg_per_100g"
+];
